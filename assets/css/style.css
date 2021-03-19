@@ -7,10 +7,17 @@
    color: #031C4E;
  }
  
+ .fr-text-white{
+  color: white;
+ }
  
+ .fr-font-20{
+   font-size: 20px;
+ }
  
- 
- 
+ .fr-top-90{
+   margin-top: 82;
+ }
  
  /*  HEADER  */
 
@@ -19,7 +26,7 @@
 }  
 
 header ul li {
-  display: inline-block;
+  display: inline;
   padding-left: 20px;
   color: #A4ADBE;
  
@@ -27,6 +34,7 @@ header ul li {
 
   /*  MAIN  */
 
+  /* JUMBOTRON */
 .fr-bgc-blue{
   width: 100%;
   background-color: blue;
@@ -46,16 +54,40 @@ header ul li {
 }
 
 .fr-container-font{
+  height: 420px;
   text-align: center;
   background-color: white;
   border: 1px solid blue;
   border-radius: 5px;
+  margin-bottom: 60px;
 }
 
 @media all and (max-width:767px){
-  .fr-color-white{
+  .fr-top-80{
     margin-top: 82px ;
+ 
   }
-
 }
 
+@media all and (min-width:768px){
+  .fr-top-80{
+    margin-top: 82px;
+    
+  }
+
+  .fr-container-font{
+    margin-top: 60px;
+    max-width: 285px;
+    margin-left: 15%;
+ 
+  }
+}
+
+
+/* LOGHI */
+main ul li {
+  display: inline;
+
+  color: #A4ADBE;
+ 
+}
