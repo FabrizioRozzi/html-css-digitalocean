@@ -1,4 +1,18 @@
-  /*  HEADER  */
+ /* GENERALI */
+ .fr-color-blue{
+   color: #006AFF;
+ }
+ 
+ .fr-color-night{
+   color: #031C4E;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /*  HEADER  */
 
 .fr-height-73{
   height: 73px;
@@ -19,7 +33,6 @@ header ul li {
 }
 
 .fr-container-90{
-  height: 1000px;
   width: 90%;
   margin: 0 auto;
 }
@@ -32,4 +45,17 @@ header ul li {
   color: #BBCDFF;
 }
 
+.fr-container-font{
+  text-align: center;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+@media all and (max-width:767px){
+  .fr-color-white{
+    margin-top: 82px ;
+  }
+
+}
 
