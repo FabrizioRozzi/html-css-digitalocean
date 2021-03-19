@@ -1,0 +1,35 @@
+  /*  HEADER  */
+
+.fr-height-73{
+  height: 73px;
+}  
+
+header ul li {
+  display: inline-block;
+  padding-left: 20px;
+  color: #A4ADBE;
+ 
+}
+
+  /*  MAIN  */
+
+.fr-bgc-blue{
+  width: 100%;
+  background-color: blue;
+}
+
+.fr-container-90{
+  height: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.fr-color-white{
+  color: white;
+}
+
+.fr-color-p{
+  color: #BBCDFF;
+}
+
+
