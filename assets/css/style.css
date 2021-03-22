@@ -1,4 +1,40 @@
  /* GENERALI */
+ .fr-clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+.fr-float-left{
+  float: left;
+}
+
+.fr-list-style{
+  list-style: none;
+  text-decoration: none;
+  border-left: 1px solid black;
+}
+
+.fr-padding-80{
+  padding-top: 80px;
+}
+
+.fr-margin-80{
+  margin-top: 80px;
+}
+
+.fr-padding-30{
+  padding-top: 30px;
+}
+
+.fr-box-icon{
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+
  .fr-color-blue{
    color: #006AFF;
  }
@@ -17,6 +53,10 @@
  
  .fr-top-90{
    margin-top: 82;
+ }
+
+ .fr-bgc-grey{
+   background-color: #F3F5F9;
  }
  
  /*  HEADER  */
@@ -87,7 +127,22 @@ header ul li {
 /* LOGHI */
 main ul li {
   display: inline;
-
-  color: #A4ADBE;
- 
+  color: #A4ADBE; 
 }
+
+.fr-container-img{
+  max-width: 175;
+}
+
+@media all and (min-width: 770px) and (max-width: 992px){
+  .fr-container-img{
+    width: 100px;
+  }
+}
+
+@media all and (min-width: 992px){
+  .fr-container-img{
+    width: 170px;
+  }
+}
+
