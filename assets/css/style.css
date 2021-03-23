@@ -1,4 +1,13 @@
  /* GENERALI */
+ .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-left{
+  float: left;
+}
 
 .fr-container-80{
   width: 80%;
@@ -194,5 +203,5 @@ main ul li {
 }
 
 #amsterdam li{
-  line-height: 40px;
+  display: inline-block;
 }
