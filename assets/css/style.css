@@ -11,7 +11,7 @@
 
 .fr-container-80{
   width: 80%;
-  margin: 0 auto;
+  margin-left: 10%;
 }
 
 .fr-list-style{
@@ -79,6 +79,9 @@
 
  .fr-bgc-grey{
    background-color: #F3F5F9;
+ }
+ .fr-bgc-white{
+   background-color: white;
  }
  
  /*  HEADER  */
@@ -202,6 +205,10 @@ main ul li {
   }
 }
 
+
+/* SEZIONE AMSTERDAM */
 #amsterdam li{
   display: inline-block;
 }
+
+/* SEZIONE ROCKER */
