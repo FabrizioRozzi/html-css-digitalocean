@@ -84,6 +84,13 @@
    background-color: white;
  }
  
+ .fr-btn-white{
+
+  border: 1px solid blue;
+  border-radius: 5px;
+
+ }
+
  /*  HEADER  */
 
 .fr-height-73{
