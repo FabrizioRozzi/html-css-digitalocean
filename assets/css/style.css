@@ -1,16 +1,8 @@
  /* GENERALI */
- .fr-clearfix {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-.float-center{
-  float: center;
-}
-
-.fr-float-left{
-  float: left;
+.fr-container-80{
+  width: 80%;
+  margin: 0 auto;
 }
 
 .fr-list-style{
@@ -199,4 +191,8 @@ main ul li {
     height: 390px;
     margin-left: 10%;
   }
+}
+
+#amsterdam li{
+  line-height: 40px;
 }
